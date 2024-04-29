@@ -5,17 +5,17 @@
 .square {
   width: 100px;
   height: 100px;
-  background-color: white;
+  background-color: blue;
   position: relative;
   top: 10px;
   right: 10px;
-  animation: square-spin infinite 10s linear; /* Changed duration to 10s */
+  animation: square-spin infinite 5s linear; /* Changed duration to 5s */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-  animation: App-logo-spin infinite 10s linear; /* Changed duration to 10s */
+  animation: App-logo-spin infinite 5s linear; /* Changed duration to 5s */
 }
 
 .squareContainer {
@@ -27,7 +27,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo,
   .square {
-    animation: square-spin infinite 10s linear, App-logo-spin infinite 10s linear; /* Changed duration to 10s */
+    animation: square-spin infinite 5s linear, App-logo-spin infinite 5s linear; /* Changed duration to 5s */
   }
 }
 

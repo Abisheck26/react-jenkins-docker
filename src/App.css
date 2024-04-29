@@ -5,7 +5,7 @@
 .square {
   width: 100px;
   height: 100px;
-  background-color: white;
+  background-color: blue;
   position: relative;
   top: 10px;
   right: 10px;
@@ -22,30 +22,6 @@
   position: absolute;
   top: 10px;
   right: 10px;
-}
-
-.hypnotize-circle {
-  width: 200px;
-  height: 200px;
-  border: 2px solid white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: hypnotize 4s linear infinite;
-  border-radius: 50%;
-  box-shadow: 0 0 0 50px rgba(0, 0, 0, 0.3), 0 0 0 100px rgba(0, 0, 0, 0.2);
-}
-
-@keyframes hypnotize {
-  0% {
-    transform: translate(-50%, -50%) scale(1) rotate(0deg);
-    opacity: 1;
-  }
-  100% {
-    transform: translate(-50%, -50%) scale(1.5) rotate(360deg);
-    opacity: 0;
-  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -11,8 +11,8 @@ function App() {
   square.style.height = '100px';
   square.style.backgroundColor = 'red';
   square.style.position = 'fixed';
-  square.style.top = '10px'; 
-  square.style.right = '10px';
+  square.style.top = '100px'; 
+  square.style.right = '100px';
 
   // Append the square to the body of the document
   document.body.appendChild(square);

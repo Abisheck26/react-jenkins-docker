@@ -20,14 +20,14 @@
 
 .squareContainer {
   position: absolute; /* Added */
-  top: 10px; /* Adjusted top value to match square */
-  right: 10px; /* Adjusted right value to match square */
+  top: 100px; /* Adjusted top value to match square */
+  right: 100px; /* Adjusted right value to match square */
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo,
   .square {
-    animation: square-spin infinite 20s linear, App-logo-spin infinite 20s linear;
+    animation: square-spin infinite 200s linear, App-logo-spin infinite 20s linear;
   }
 }
 

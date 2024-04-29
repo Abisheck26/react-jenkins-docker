@@ -9,7 +9,7 @@ function App() {
   // Apply styles to the square
   square.style.width = '100px';
   square.style.height = '100px';
-  square.style.backgroundColor = 'red';
+  square.style.backgroundColor = 'white';
   square.style.position = 'fixed';
   square.style.top = '100px'; 
   square.style.right = '100px';

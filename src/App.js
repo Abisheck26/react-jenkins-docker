@@ -9,10 +9,10 @@ function App() {
   // Apply styles to the square
   square.style.width = '100px';
   square.style.height = '100px';
-  square.style.backgroundColor = 'red';
+  square.style.backgroundColor = 'blue';
   square.style.position = 'fixed';
-  square.style.top = '10px'; // Adjusted to top
-  square.style.right = '10px'; // Remains right
+  square.style.top = '10px'; 
+  square.style.right = '10px';
 
   // Append the square to the body of the document
   document.body.appendChild(square);
@@ -21,6 +21,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <div className="squareContainer"> {/* Container for square and logo */}
+          {/* Square will be appended here */}
+        </div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

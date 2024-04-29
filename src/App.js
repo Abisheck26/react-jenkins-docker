@@ -6,20 +6,13 @@ function App() {
   const squareRight = document.createElement('div');
   squareRight.className = 'square';
 
-  // Apply styles to the square on the right side
-  squareRight.style.width = '100px';
-  squareRight.style.height = '100px';
-  squareRight.style.backgroundColor = 'white';
-  squareRight.style.position = 'fixed';
-  squareRight.style.top = '350px'; 
-  squareRight.style.right = '500px';
-
-  // Append the square to the body of the document
-  document.body.appendChild(squareRight);
-
-  // Create a square element on the left side
   const squareLeft = document.createElement('div');
-  squareLeft.className = 'square';
+  squareLeft.className = 'square left';
+
+  // Append the squares to the body of the document
+  document.body.appendChild(squareRight);
+  document.body.appendChild(squareLeft);
+  // Apply styles to the square on the right side
 
   // Apply styles to the square on the left side
   squareLeft.style.width = '100px';

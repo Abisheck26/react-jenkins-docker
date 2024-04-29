@@ -32,6 +32,13 @@ function App() {
   // Append the square to the body of the document
   document.body.appendChild(squareLeft);
 
+  // Create a div element for the hypnotic circle
+  const hypnotizeCircle = document.createElement('div');
+  hypnotizeCircle.className = 'hypnotize-circle';
+
+  // Append the hypnotic circle to the body of the document
+  document.body.appendChild(hypnotizeCircle);
+
   return (
     <div className="App">
       <header className="App-header">

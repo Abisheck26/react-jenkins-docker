@@ -5,29 +5,29 @@
 .square {
   width: 100px;
   height: 100px;
-  background-color: red;
-  position: relative; /* Changed to relative */
-  top: 100px;
-  right: 100px;
-  animation: square-spin infinite 100s linear;
+  background-color: white;
+  position: relative;
+  top: 10px;
+  right: 10px;
+  animation: square-spin infinite 10s linear; /* Changed duration to 10s */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 10s linear; /* Changed duration to 10s */
 }
 
 .squareContainer {
-  position: absolute; /* Added */
-  top: 100px; /* Adjusted top value to match square */
-  right: 100px; /* Adjusted right value to match square */
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo,
   .square {
-    animation: square-spin infinite 200s linear, App-logo-spin infinite 20s linear;
+    animation: square-spin infinite 10s linear, App-logo-spin infinite 10s linear; /* Changed duration to 10s */
   }
 }
 

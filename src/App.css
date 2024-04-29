@@ -2,14 +2,26 @@
   text-align: center;
 }
 
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  animation: square-spin infinite 20s linear;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  animation: App-logo-spin infinite 20s linear; /* Animation added */
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-logo,
+  .square {
+    animation: square-spin infinite 20s linear, App-logo-spin infinite 20s linear; /* Both animations added */
   }
 }
 
@@ -26,6 +38,15 @@
 
 .App-link {
   color: #61dafb;
+}
+
+@keyframes square-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes App-logo-spin {

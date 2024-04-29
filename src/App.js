@@ -12,7 +12,7 @@ function App() {
   square.style.backgroundColor = 'white';
   square.style.position = 'fixed';
   square.style.top = '350px'; 
-  square.style.right = '350px';
+  square.style.right = '500px';
 
   // Append the square to the body of the document
   document.body.appendChild(square);

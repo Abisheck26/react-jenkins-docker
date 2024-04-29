@@ -64,22 +64,3 @@
   }
 }
 
-.square {
-  width: 100px;
-  height: 100px;
-  background-color: #b0b0b0; /* Gray color similar to Apple logo */
-  position: fixed;
-  top: 350px;
-}
-
-/* Apply Apple logo styles to the left square */
-.square.left {
-  clip-path: polygon(0% 0%, 50% 0%, 50% 50%, 0% 50%);
-  background-color: #b0b0b0; /* Gray color similar to Apple logo */
-}
-
-/* Apply Apple logo styles to the right square */
-.square.right {
-  clip-path: polygon(50% 0%, 100% 0%, 100% 50%, 50% 50%);
-  background-color: #b0b0b0; /* Gray color similar to Apple logo */
-}

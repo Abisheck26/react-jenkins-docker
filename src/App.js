@@ -2,6 +2,21 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // Create a square element
+  const square = document.createElement('div');
+  square.className = 'square';
+
+  // Apply styles to the square
+  square.style.width = '100px';
+  square.style.height = '100px';
+  square.style.backgroundColor = 'blue';
+  square.style.position = 'fixed';
+  square.style.bottom = '10px';
+  square.style.right = '10px';
+
+  // Append the square to the body of the document
+  document.body.appendChild(square);
+
   return (
     <div className="App">
       <header className="App-header">

@@ -2,20 +2,13 @@
   text-align: center;
 }
 
-.square {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  position: relative;
-  top: 10px;
-  right: 10px;
-  animation: square-spin infinite 5s linear; /* Changed duration to 5s for slower rotation */
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
   animation: App-logo-spin infinite 5s linear; /* Changed duration to 5s for slower rotation */
+  position: relative; /* Added position relative */
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
 }
 
 .squareContainer {
@@ -25,9 +18,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo,
-  .square {
-    animation: square-spin infinite 5s linear, App-logo-spin infinite 5s linear; /* Changed duration to 5s for slower rotation */
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear; /* Changed duration to 5s for slower rotation */
   }
 }
 
@@ -44,15 +36,6 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes square-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes App-logo-spin {

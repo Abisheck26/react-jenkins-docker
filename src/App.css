@@ -9,13 +9,13 @@
   position: relative;
   top: 10px;
   right: 10px;
-  animation: square-spin infinite 2.5s linear; /* Changed duration to 2.5s */
+  animation: square-spin infinite 5s linear; /* Changed duration to 5s for slower rotation */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-  animation: App-logo-spin infinite 2.5s linear; /* Changed duration to 2.5s */
+  animation: App-logo-spin infinite 5s linear; /* Changed duration to 5s for slower rotation */
 }
 
 .squareContainer {
@@ -27,7 +27,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo,
   .square {
-    animation: square-spin infinite 2.5s linear, App-logo-spin infinite 2.5s linear; /* Changed duration to 2.5s */
+    animation: square-spin infinite 5s linear, App-logo-spin infinite 5s linear; /* Changed duration to 5s for slower rotation */
   }
 }
 
@@ -63,4 +63,3 @@
     transform: rotate(360deg);
   }
 }
-
